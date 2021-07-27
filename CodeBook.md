@@ -28,7 +28,7 @@ The final tidy data was stored in a text file using write.table function. The fi
 
 There are 180 observations of 68 variables in the final tidy data set.
 
-(Please turn on the raw mode if below table is not in a proper shape. Bottom available on top-right.)
+(Please turn on the blame mode if below table is not displayed in a proper shape. Bottom available on top-right.)
 
 +--------------------+----------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | **Variable Order** | **Variable Name**          | **Descriptive Explanation**                                                                                                                                                                         |
