@@ -79,6 +79,7 @@ combine_meanstd_longer_avg <- combine_meanstd_longer %>%
 
 ## transpose data back to wider shape
 combine_meanstd_avg_wider <- pivot_wider(combine_meanstd_longer_avg,
+                                         id_cols = c(SUBJID,ACTIVITY),
                                          names_from = variable,
                                          values_from = AVG)
 
