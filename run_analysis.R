@@ -83,4 +83,5 @@ combine_meanstd_avg_wider <- pivot_wider(combine_meanstd_longer_avg,
                                          values_from = AVG)
 
 ## Final step: output the final tidy data
-write.table(combine_meanstd_avg_wider, file = "final tidy data.txt")
+write.table(combine_meanstd_avg_wider, file = "final tidy data.txt", 
+            row.names = F)
