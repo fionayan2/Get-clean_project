@@ -36,7 +36,7 @@ feature <- read.table("UCI HAR Dataset/features.txt")
 names(combine) <- c("SUBJID", feature$V2, "ACTIVITY_LABEL")
 
 ## select mean & STD for each measurements
-## Personally I think it's those ended with mean() and std() respectively
+## Personally I think they're those containing mean() and std() respectively
 mean_var_list <- grep("mean()", feature$V2, value = T, fixed = T)
 std_var_list <- grep("std()", feature$V2, value = T, fixed = T)
 
